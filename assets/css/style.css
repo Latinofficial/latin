@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+section {
+  width: 80%;
+  box-shadow: 3px 1px 9px 5px rgba(13, 13, 13, 0.7);
+  display: flex;
+}
+
+.first-part {
+  width: 50%;
+  background-color: hsl(244, 38%, 16%);
+  padding: 4rem 3.5rem;
+}
+
+.second-part {
+  width: 50%;
+  background-image: url("../images/photo_2022-06-14_18-31-22.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 59%, 51%, 0.7);
+}
+
+.highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+.page-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.page-description {
+  font-size: 0.94rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat {
+  display: flex;
+}
+
+.each-stat {
+  margin-right: 4rem;
+}
+
+.each-stat-number {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.each-stat-title {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
