@@ -24,13 +24,13 @@ section {
 }
 
 .first-part {
-  width: 50%;
+  width: 100%;
   background-color: hsl(244, 38%, 16%);
   padding: 4rem 3.5rem;
 }
 
 .second-part {
-  width: 50%;
+  width: 100%;
   background-image: url("../images/photo_2022-06-14_18-31-22.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -79,4 +79,40 @@ section {
   text-transform: uppercase;
   font-size: 0.7rem;
   font-weight: 400;
+}
+
+@media (max-width: 468px) {
+  section {
+    flex-direction: column-reverse;
+  }
+
+  .first-part {
+    padding: 2rem 1.5rem;
+  }
+
+  .second-part {
+    height: 12rem;
+  }
+
+  .page-heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .page-description {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .stat {
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+  }
+
+  .each-stat {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 }
